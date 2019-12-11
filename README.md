@@ -23,3 +23,5 @@ Alan Partridge II - Apple Turnover
 Squares sequence
 Square Every Digit
 Find the next perfect square!
+Power of two
+Powers of 3
