@@ -18,3 +18,8 @@ Is integer safe to use?
 Return Negative
 Invert values
 Closest elevator
+To square(root) or not to square(root)
+Alan Partridge II - Apple Turnover
+Squares sequence
+Square Every Digit
+Find the next perfect square!
