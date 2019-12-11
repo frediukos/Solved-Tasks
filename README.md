@@ -12,3 +12,9 @@ function SeriesSum(n) {
   return sum.toFixed(2) + '';
 }
 ```
+Filter the number
+isReallyNaN
+Is integer safe to use?
+Return Negative
+Invert values
+Closest elevator
