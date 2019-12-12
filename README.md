@@ -31,3 +31,5 @@ How many times should I go?
 Return the closest number multiple of 10
 Formatting decimal places #1
 Lario and Muigi Pipe Problem
+Convert a Number to a String!
+Number toString
