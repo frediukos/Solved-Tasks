@@ -25,3 +25,9 @@ Square Every Digit
 Find the next perfect square!
 Power of two
 Powers of 3
+Keep Hydrated!
+Holiday VIII - Duty Free
+How many times should I go?
+Return the closest number multiple of 10
+Formatting decimal places #1
+Lario and Muigi Pipe Problem
