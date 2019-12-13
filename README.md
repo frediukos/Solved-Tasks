@@ -37,3 +37,9 @@ Calculate Price Excluding VAT
 Powers of 2
 Convert number to reversed array of digits
 Filling an array (part 1)
+Parse nice int from char problem
+Hex to Decimal
+Bin to Decimal
+parseFloat(s)
+
+
