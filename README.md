@@ -41,5 +41,10 @@ Parse nice int from char problem
 Hex to Decimal
 Bin to Decimal
 parseFloat(s)
+Count the Monkeys!
+Filling an array (part 1)
+Sum Arrays
+What is type of variable?
+Is every value in the array an array?
 
 
