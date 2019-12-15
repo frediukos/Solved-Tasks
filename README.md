@@ -65,5 +65,21 @@ Lario and Muigi Pipe Problem
 Sum without highest and lowest number
 Find Maximum and Minimum Values of a List
 Sum of two lowest positive integers
+Remove the minimum
+Find the divisors!
+Count by X
+Unfinished Loop - Bug Fixing #1
+Generate range of integers
+Powers of 2
+To square(root) or not to square(root)
+Reversed sequence
+Training JS #4: Basic data types--Array
+Enumerable Magic #3 - Does My List Include This?
+No Loops 2 - You only need one
+You only need one - Beginner
+Remove the minimum
+A Needle in the Haystack
+Be Concise IV - Index of an element in an array
+A wolf in sheep's clothing
 
 
