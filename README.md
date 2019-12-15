@@ -46,5 +46,20 @@ Filling an array (part 1)
 Sum Arrays
 What is type of variable?
 Is every value in the array an array?
+Enumerable Magic #3 - Does My List Include This?
+Counting sheep...
+A Needle in the Haystack
+Be Concise IV - Index of an element in an array
+To square(root) or not to square(root)
+Difference of Volumes of Cuboids
+Total amount of points
+Square(n) Sum
+How good are you really?
+Sum of positive
+Count of positives / sum of negatives
+Calculate average
+Sum of Odd Cubed Numbers
+Odd or Even?
+Find the smallest integer in the array
 
 
