@@ -61,5 +61,9 @@ Calculate average
 Sum of Odd Cubed Numbers
 Odd or Even?
 Find the smallest integer in the array
+Lario and Muigi Pipe Problem
+Sum without highest and lowest number
+Find Maximum and Minimum Values of a List
+Sum of two lowest positive integers
 
 
