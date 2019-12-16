@@ -100,5 +100,10 @@ Sentence Smash
 Printing Array elements with Comma delimiters
 String Templates - Bug Fixing #5
 CSV representation of arrayEnumerable Magic #1 - True for All?
+Sum Arrays
+Grasshopper - Array Mean
+SpeedCode #2 - Array Madness
+Beginner - Reduce but Grow
+Array plus array
 
 
