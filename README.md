@@ -96,5 +96,9 @@ Two Oldest Ages
 Sum of two lowest positive integers
 Find Maximum and Minimum Values of a List
 Sum of differences in array
+Sentence Smash
+Printing Array elements with Comma delimiters
+String Templates - Bug Fixing #5
+CSV representation of arrayEnumerable Magic #1 - True for All?
 
 
