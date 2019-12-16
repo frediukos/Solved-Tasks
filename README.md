@@ -87,5 +87,14 @@ Removing Elements
 filterEvenLengthWord
 Find how many times did a team from a given country win the Champions League?
 Array.diff
+Find Duplicates
+Train to remove duplicates from an array with filter()
+Convert number to reversed array of digits
+My head is at the wrong end!
+A wolf in sheep's clothing
+Two Oldest Ages
+Sum of two lowest positive integers
+Find Maximum and Minimum Values of a List
+Sum of differences in array
 
 
