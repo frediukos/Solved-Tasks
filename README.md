@@ -81,5 +81,11 @@ Remove the minimum
 A Needle in the Haystack
 Be Concise IV - Index of an element in an array
 A wolf in sheep's clothing
+JavaScript Array Filter
+Find numbers which are divisible by given number
+Removing Elements
+filterEvenLengthWord
+Find how many times did a team from a given country win the Champions League?
+Array.diff
 
 
