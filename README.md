@@ -127,5 +127,9 @@ Double Char
 Remove First and Last Character
 Remove String Spaces
 Spacify
-
+Reversed Strings
+Is it a palindrome?
+Find the capitals
+Mumbling
+Thinking & Testing : Something capitalized
 
