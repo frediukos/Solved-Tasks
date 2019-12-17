@@ -105,5 +105,9 @@ Grasshopper - Array Mean
 SpeedCode #2 - Array Madness
 Beginner - Reduce but Grow
 Array plus array
+Convert number to reversed array of digits
+Beginner - Lost Without a Map
+Invert values
+Remove First and Last Character Part Two
 
 
