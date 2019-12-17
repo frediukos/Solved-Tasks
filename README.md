@@ -109,5 +109,23 @@ Convert number to reversed array of digits
 Beginner - Lost Without a Map
 Invert values
 Remove First and Last Character Part Two
+Jenny's secret message
+Template Strings
+Returning Strings
+String Templates - Bug Fixing #5
+If you can't sleep, just count sheep!!
+Parse nice int from char problem
+get character from ASCII Value
+Regex validate PIN code
+Determine offspring sex based on genes XX and XY chromosomes
+Is this my tail?
+Abbreviate a Two Word Name
+Numbers to Letters
+5 without numbers !!
+Regex count lowercase letters
+Double Char
+Remove First and Last Character
+Remove String Spaces
+Spacify
 
 
