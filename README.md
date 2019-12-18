@@ -132,4 +132,10 @@ Is it a palindrome?
 Find the capitals
 Mumbling
 Thinking & Testing : Something capitalized
+repeatIt
+String repeat
+Draw stairs
+Do you speak "English"?
+Don't give me five!
+Find the position!
 
