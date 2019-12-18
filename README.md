@@ -138,4 +138,15 @@ Draw stairs
 Do you speak "English"?
 Don't give me five!
 Find the position!
-
+String ends with?
+Credit Card Mask
+Remove First and Last Character
+Vowel remover
+Complementary DNA
+DNA to RNA Conversion
+Filter the number
+Correct the mistakes of the character recognition software
+Remove String Spaces
+Fake Binary
+Exclamation marks series #2: Remove all exclamation marks from the end of sentence
+FIXME: Replace all dots
