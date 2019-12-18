@@ -150,3 +150,10 @@ Remove String Spaces
 Fake Binary
 Exclamation marks series #2: Remove all exclamation marks from the end of sentence
 FIXME: Replace all dots
+Reversed Words
+Descending Order
+Highest and Lowest
+Convert number to reversed array of digits
+Name Shuffler
+Squash the bugs
+Reversing Words in a String
