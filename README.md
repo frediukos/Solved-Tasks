@@ -161,3 +161,10 @@ Reversing Words in a String
 Welcome!
 Duck Duck Goose
 makeBackronym
+Job Matching #1
+```
+function match(candidate, job) {
+  if (candidate.minSalary === undefined || job.maxSalary === undefined) return error;
+  return (candidate.minSalary - candidate.minSalary / 10 <= job.maxSalary);
+}
+```
