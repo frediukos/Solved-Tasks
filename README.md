@@ -162,9 +162,15 @@ Welcome!
 Duck Duck Goose
 makeBackronym
 Job Matching #1
-```
+```javascript
 function match(candidate, job) {
   if (candidate.minSalary === undefined || job.maxSalary === undefined) return error;
   return (candidate.minSalary - candidate.minSalary / 10 <= job.maxSalary);
+}
+```
+Add property to every object in array
+```javascript
+for (let i = 0; i < questions.length; i++) {
+  questions[i].usersAnswer = null
 }
 ```
