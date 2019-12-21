@@ -161,7 +161,6 @@ Reversing Words in a String
 Welcome!
 Duck Duck Goose
 makeBackronym
-
 Job Matching #1
 ```
 function match(candidate, job) {
