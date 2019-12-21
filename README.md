@@ -157,3 +157,7 @@ Convert number to reversed array of digits
 Name Shuffler
 Squash the bugs
 Reversing Words in a String
+**********OBJECTS*************
+Welcome!
+Duck Duck Goose
+makeBackronym
