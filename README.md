@@ -185,3 +185,12 @@ function numObj(s){
   return out;  
 }
 ```
+Coding Meetup #5 - Higher-Order Functions Series - Prepare the count of languages
+```javascript
+function countLanguages(list) {
+  const answer = {};
+  list.map(el => {let l = el.language; answer[l] = 0;});
+  list.map(el => {let l = el.language; answer[l] +=1;});
+  return answer; 
+}
+```
