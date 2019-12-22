@@ -174,3 +174,14 @@ for (let i = 0; i < questions.length; i++) {
   questions[i].usersAnswer = null
 }
 ```
+Numbers to Objects
+```javascript
+function numObj(s){
+  let out = [];
+  for (let i = 0; i < s.length; i++) {
+    out[i] = {};
+    out[i][s[i]] = String.fromCharCode(s[i]);
+  }
+  return out;  
+}
+```
