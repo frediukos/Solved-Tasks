@@ -194,3 +194,18 @@ function countLanguages(list) {
   return answer; 
 }
 ```
+What is my name score? #1
+```javascript
+function nameScore(name){
+  //const alpha = {'ABCDE':1,'FGHIJ':2,'KLMNO':3,'PQRST':4,'UVWXY':5};
+  const out = {};
+  out[name] = 0;
+  let tmp = name.replace(' ', '').toUpperCase();
+    for (let i = 0; i < tmp.length; i++) {
+      for(let key in alpha) {
+        if (key.includes(tmp[i])) out[name] +=alpha[key];
+      }
+    }  
+  return out;
+}
+```
