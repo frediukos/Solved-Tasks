@@ -1,4 +1,4 @@
-**Duck Duck Goose 2**
+**Duck Duck Goose**
 ```javascript
 function duckDuckGoose(players, goose) {
  return players[(goose - 1) % players.length].name

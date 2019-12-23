@@ -162,75 +162,9 @@ Welcome!
 Duck Duck Goose
 makeBackronym
 Job Matching #1
-```javascript
-function match(candidate, job) {
-  if (candidate.minSalary === undefined || job.maxSalary === undefined) return error;
-  return (candidate.minSalary - candidate.minSalary / 10 <= job.maxSalary);
-}
-```
 Add property to every object in array
-```javascript
-for (let i = 0; i < questions.length; i++) {
-  questions[i].usersAnswer = null
-}
-```
 Numbers to Objects
-```javascript
-function numObj(s){
-  let out = [];
-  for (let i = 0; i < s.length; i++) {
-    out[i] = {};
-    out[i][s[i]] = String.fromCharCode(s[i]);
-  }
-  return out;  
-}
-```
-Coding Meetup #5 - Higher-Order Functions Series - Prepare the count of languages
-```javascript
-function countLanguages(list) {
-  const answer = {};
-  list.map(el => {let l = el.language; answer[l] = 0;});
-  list.map(el => {let l = el.language; answer[l] +=1;});
-  return answer; 
-}
-```
+Coding Meetup #5
 What is my name score? #1
-```javascript
-function nameScore(name){
-  //const alpha = {'ABCDE':1,'FGHIJ':2,'KLMNO':3,'PQRST':4,'UVWXY':5};
-  const out = {};
-  out[name] = 0;
-  let tmp = name.replace(' ', '').toUpperCase();
-    for (let i = 0; i < tmp.length; i++) {
-      for(let key in alpha) {
-        if (key.includes(tmp[i])) out[name] +=alpha[key];
-      }
-    }  
-  return out;
-}
-```
 The Office I - Outed
-```javascript
-function outed(meet, boss){
-  return (Object.values(meet).reduce((a,b)=>(a+b),0)+(meet[boss]))
-  /(Object.values(meet).length)>5?'Nice Work Champ!':'Get Out Now!';
-}
-```
-или
-```javascript
-function outed(meet, boss){
-  let score = 0;
-  let numOfPeople = 0;
-  for (let key in meet) {
-    if (key === boss) {
-      score +=meet[key] * 2;
-    } else {
-        score +=meet[key];
-      };
-    numOfPeople++;
-  }
-  score = (score / numOfPeople);                  
-  return score < 5 || score === 5 ? 'Get Out Now!' : 'Nice Work Champ!';
-}
-```
 
