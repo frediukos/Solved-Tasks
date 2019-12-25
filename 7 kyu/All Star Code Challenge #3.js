@@ -18,3 +18,9 @@ var removeVowels = function(str) {
     const s = str.split('').map(el => {if (!sound.includes(el)) out +=el});
     return out;
 }
+
+//or
+
+function removeVowels(str){
+    return str.replace(/[aeiou]/ig,'')
+}
