@@ -10,3 +10,11 @@ function tailSwap(arr) {
     out[1] = arr[1].replace(tmp2, tmp1);
     return out;
 }
+
+//or
+
+function tailSwap(arr) {
+    const [aa, ab] = arr[0].split(":")
+    const [ba, bb] = arr[1].split(":")
+    return [`${aa}:${bb}`, `${ba}:${ab}`]
+}
