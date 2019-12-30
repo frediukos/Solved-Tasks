@@ -8,3 +8,9 @@ String.prototype.isLetter = function() {
     let regex = RegExp(/^[a-z]$/i);
     return regex.test(this);
 }
+
+//or
+
+String.prototype.isLetter = function() {
+    return /^[a-z]$/i.test(this);
+}
