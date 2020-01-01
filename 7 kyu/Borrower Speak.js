@@ -1,17 +1,15 @@
 // Borrower Speak
 
 /*
-Write a function which removes from string all non-digit characters and parse the remaining to number. E.g: "hell5o wor6ld" -> 56
+The borrowers are tiny tiny fictional people. As tiny tiny people they have to be sure they aren't spotted, or more importantly, stepped on.
 
-Function:
+As a result, the borrowers talk very very quietly. They find that capitals and punctuation of any sort lead them to raise their voices and put them in danger.
 
-####javascript
+The young borrowers have begged their parents to stop using caps and punctuation.
 
-getNumberFromString(s)
+Change the input text 's' to new borrower speak. Help save the next generation!
  */
 
 function borrow(s){
     return s.replace(/[?]?[.]?[:]?[;]?[,]?!*[\s]?/g, '').toLowerCase();
 }
-
-// or use  \D
