@@ -17,11 +17,10 @@ Good luck! (I think you're going to need it.)
  */
 
 function zombie_shootout(zomb, range, ammo) {
-    console.log(zomb + ' ' + range + ' ' + ammo);
     if (range === 0) return 'You shot 0 zombies before being eaten: overwhelmed.';
     let zombTime = range / 0.5;
     if (zomb <= ammo && zombTime - zomb >= 0) return `You shot all ${zomb} zombies.`
-    else if (zomb >= ammo && zombTime - ammo > 0) return `You shot ${ammo} zombies before being eaten: ran out of ammo.`
-    else if (zombTime <= zomb && zombTime <= ammo) return `You shot ${zombTime} zombies before being eaten: overwhelmed.`
+      else if (zomb >= ammo && zombTime - ammo > 0) return `You shot ${ammo} zombies before being eaten: ran out of ammo.`
+        else if (zombTime <= zomb && zombTime <= ammo) return `You shot ${zombTime} zombies before being eaten: overwhelmed.`
 }
 
