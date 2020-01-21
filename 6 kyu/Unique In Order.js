@@ -10,7 +10,7 @@ uniqueInOrder('ABBCcAD')         == ['A', 'B', 'C', 'c', 'A', 'D']
 uniqueInOrder([1,2,2,3,3])       == [1,2,3]
  */
 
-var uniqueInOrder=function(iter){
+var uniqueInOrder=function(iter) {
     let out = [];
     for (let i = 0; i < iter.length; i++) {
         if (iter[i] !== iter[i+1]) {
