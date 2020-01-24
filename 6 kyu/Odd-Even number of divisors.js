@@ -37,6 +37,6 @@ function oddity(n){
 
 //or
 
-function oddity(n){
-    return Math.sqrt(n)%1 ? "even" : "odd";
+function oddity(n) {
+    return Math.sqrt(n) % 1 == 0 ? 'odd' : 'even';
 }
