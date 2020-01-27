@@ -58,3 +58,15 @@ function strong(n) {
     }
     return n === out ? "STRONG!!!!" : "Not Strong !!" ;
 }
+
+//or
+
+function strong(n) {
+    return (n + '')
+        .split('')
+        .reduce((sum,el) => sum + factorial(+el), 0) == n? "STRONG!!!!" : "Not Strong !!" ;
+}
+
+function factorial(n) {
+    return (n) ? n * factorial(n - 1) : 1;
+}
