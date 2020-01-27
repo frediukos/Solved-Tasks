@@ -7,3 +7,11 @@ Your code will show Full name of the neighbor and the truncated version of the n
 FUNDAMENTALS  STRINGS
  */
 
+function whoIsPaying(name){
+    let arr = [];
+    if (name.length > 2) {
+        arr.push(name);
+        arr.push(name.substring(0, 2));
+    } else arr[0] = name;
+    return arr;
+}
