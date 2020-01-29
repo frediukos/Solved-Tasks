@@ -37,7 +37,7 @@ The Fourth element 300 is the product of all array's elements except the fourth 
 Finally ,The Fifth element 900 is the product of all array's elements except the fifth element 2
  */
 
-unction productArray(num){
+function productArray(num) {
     let out = []; let prod;
     for (let j = 0; j < num.length; j++) {
         prod = 1;
