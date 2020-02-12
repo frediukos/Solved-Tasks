@@ -21,3 +21,9 @@ function toCamelCase(str){
     }
     return str[0] + out.slice(1);
 }
+
+// or shorter
+
+function toCamelCase(str){
+    return str.replace(/[_-]\w/gi, el => el[1].toUpperCase());
+}
