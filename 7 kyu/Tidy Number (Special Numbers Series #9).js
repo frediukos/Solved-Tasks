@@ -52,3 +52,9 @@ function tidyNumber(n){
     }
     return true;
 }
+
+// or
+
+function tidyNumber(n) {
+    return n == [...n + ''].sort((a, b) => a - b).join('');
+}
