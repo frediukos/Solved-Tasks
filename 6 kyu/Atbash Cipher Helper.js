@@ -42,8 +42,7 @@ function AtbashCipher(abc) {
         let index;
         let out = str.split('');  //console.log(out);
         for (let i = 0; i < out.length; i++) {
-            index = abc.indexOf(out[i]); console.log(index);
-            //out[i] = abc[abc.length - (index + 1)]
+            index = abc.indexOf(out[i]); //console.log(index);
             if (index >= 0 ) {
                 out[i] = abc[abc.length - (index + 1)]
             } else {
