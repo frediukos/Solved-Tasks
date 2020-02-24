@@ -23,3 +23,10 @@ function danspower(num, power) {
   }
   return res;
 }
+
+// or shorter solution
+
+function danspower(num, power) {
+  let res = Math.pow(num, power);
+  return res % 2 === 0 ? res : Math.round(res / 10) * 10;
+}
