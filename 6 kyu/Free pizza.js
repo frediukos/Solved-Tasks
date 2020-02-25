@@ -16,7 +16,7 @@ function pizzaRewards(customers, minOrders, minPrice) {
   let bonus = [];
   for (let key in customers) {
     if (customers[key].filter(el => el >= minPrice).length >= minOrders) {
-      bonus.push(key)
+      bonus.push(key);
     }
   }
   return bonus;
