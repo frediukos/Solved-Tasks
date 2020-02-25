@@ -15,8 +15,6 @@ ALGORITHMS   ARRAYS
  */
 
 function summaryRanges(nums) {
-  let start = 0;
-  let str = '';
   let out = []; let tmp = [nums[0]];
   if (nums.length === 0) return out;
   nums.map((el, i) => {
