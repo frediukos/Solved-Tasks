@@ -19,3 +19,9 @@ function solution(fullText, searchText) {
   }
   return count;
 }
+
+// or
+
+function solution(fullText, searchText){
+  return fullText.split(searchText).length - 1;
+}
