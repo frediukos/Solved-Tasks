@@ -16,7 +16,6 @@ FUNDAMENTALS   ARRAYS
  */
 
 function isValidWalk(walk) {
-  console.log(walk);
   let n = 0;
   let s = 0;
   let e = 0;
