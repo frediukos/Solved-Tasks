@@ -28,5 +28,5 @@ function isValidWalk(walk) {
       else if (walk[i] === 'e') { e++; }
         else if (walk[i] === 'w') w++;
   }
-  return n === s && e === w ? true : false;
+  return n === s && e === w;
 }
