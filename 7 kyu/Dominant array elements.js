@@ -25,4 +25,10 @@ function solve(arr) {
       arr = arr.slice(arr.indexOf(max)+1);
     } else return out;
   }
-}
+};
+
+// or shorter
+
+function solve(arr){
+  return arr.filter((el, i) => arr.slice(i + 1).every(x => x < el));
+};
