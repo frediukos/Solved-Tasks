@@ -26,3 +26,14 @@ function stringTransformer(str) {
     });
   return out.join(' ');
 }
+
+//or
+
+function stringTransformer(str) {
+  return str.split(' ')
+    .reverse()
+    .join(' ')
+    .split('')
+    .map(elm => elm === elm.toLowerCase() ? elm.toUpperCase() : elm.toLowerCase())
+    .join('');
+}
