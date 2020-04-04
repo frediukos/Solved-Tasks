@@ -32,4 +32,4 @@ obj=[11,12,21,11]    return false  (not verify them as a string)
  */
 
 sc=(o)=>{if (!Array.isArray(o)) o=(o+'').split('');
-  for (let i in o){if (o[i]!=o[o.length-1-i]) return false;}return true;}
+for (let i in o){if (o[i]!==o[o.length-1-i]) return false;}return true;}
