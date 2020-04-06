@@ -36,6 +36,5 @@ filter, map, reduce, some, every, find, findIndex. Other approaches to solving t
  */
 
 function findAdmin(list, lang) {
-  console.log(list, lang);
   return list.filter(el => el.language === lang && el.githubAdmin === 'yes')
 }
