@@ -32,3 +32,10 @@ function findSenior(list) {
   max = Math.max.apply(null, max);
   return list.filter(el => el.age === max);
 }
+
+// or
+
+function findSenior(list) {
+  let max = Math.max(...list.map(el => el.age));
+  return list.filter(el => el.age === max);
+}
