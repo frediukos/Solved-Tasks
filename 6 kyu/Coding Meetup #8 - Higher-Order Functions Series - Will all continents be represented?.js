@@ -51,3 +51,9 @@ function allContinents(list) {
   }
   return true;
 }
+
+// or
+
+function allContinents(list) {
+  return ['Africa', 'Americas', 'Asia', 'Europe', 'Oceania'].every(el => list.some(elm => el === elm.continent));
+}
