@@ -45,3 +45,12 @@ function cycle(dir, arr, cur) {
     ? arr[(i + dir) % arr.length]
     : arr.reverse()[i % arr.length];
 }
+
+// or
+
+function cycle(dir, arr, cur) {
+  var i = arr.indexOf(cur);
+  return i < 0 ?
+    null :
+    arr[(i + dir + arr.length) % arr.length];
+}
