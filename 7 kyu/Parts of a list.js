@@ -52,3 +52,9 @@ function partlist(arr) {
   }
   return out;
 }
+
+// or
+
+function partlist(arr) {
+  return arr.map((v,i)=>[arr.slice(0,i+1).join(' '),arr.slice(i+1).join(' ')]).splice(0, arr.length - 1);
+}
