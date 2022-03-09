@@ -20,8 +20,11 @@ function doubleChar(str) {
     return newStr;
 }
 
-//*****************************
+//***************************
 
+/*
 function doubleChar(str) {
     return str.split('').map(el => el+el).join('');
 }
+
+ */
